@@ -3,12 +3,12 @@
 require_once(__DIR__.'/config.php');
 require_once(__DIR__.'/../lib/meli.php');
 
-function scrapItemsById($items=array()) {
+function scrapItemsById($items='') {
 	
 	$meli = new Meli(MELI_APP_ID, MELI_SECRET);
 
 	$params = array();
-	$params['ids'] = implode($items, ',');
+	$params['ids'] = urlencode(trim($items));
 	$result = $meli->get('/items', $params);
 
 	return $result['body'];
