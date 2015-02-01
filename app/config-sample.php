@@ -11,3 +11,4 @@ define('DBNAME', 'mercadolibre-spy');
 
 define('MELI_APP_ID', 'YOUR-API-APP-ID'); // Generate yours in https://applications.mercadolibre.com
 define('MELI_SECRET', 'YOUR-API-SECRET-KEY');
+define('MELI_SITE', 'MLA'); // What country site you will be working with
