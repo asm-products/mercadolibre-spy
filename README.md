@@ -8,4 +8,12 @@ If you are selling in MercadoLibre there are a bunch of tools out there to use, 
 
 The goal for MercadoLibre SPY is to create a very simple to use tool to explore online markets like MercadoLibre and find the best opportunities to promote.
 
+## Instalation
+
+1. Go to [MercadoLibre Applications](https://applications.mercadolibre.com) and create an App, you will need the ID and the secret Key
+2. Create a MySQL Database and dump the latest file in _/database_
+3. Open config-samepl.php, enter your App credentials and complete database info
+
+---
+
 This is a product being built by the Assembly community. You can help push this idea forward by visiting [https://assembly.com/mercadolibre-spy](https://assembly.com/mercadolibre-spy).
