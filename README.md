@@ -4,10 +4,8 @@
 
 ## Business Intelligence for MercadoLibre Sellers
 
+If you are selling in MercadoLibre there are a bunch of tools out there to use, but so far I couldn't find one that is simple enough to be used by the average seller.
+
+The goal for MercadoLibre SPY is to create a very simple to use tool to explore online markets like MercadoLibre and find the best opportunities to promote.
+
 This is a product being built by the Assembly community. You can help push this idea forward by visiting [https://assembly.com/mercadolibre-spy](https://assembly.com/mercadolibre-spy).
-
-### How Assembly Works
-
-Assembly products are like open-source and made with contributions from the community. Assembly handles the boring stuff like hosting, support, financing, legal, etc. Once the product launches we collect the revenue and split the profits amongst the contributors.
-
-Visit [https://assembly.com](https://assembly.com) to learn more.
