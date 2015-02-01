@@ -11,8 +11,8 @@ The goal for MercadoLibre SPY is to create a very simple to use tool to explore 
 ## Instalation
 
 1. Go to [MercadoLibre Applications](https://applications.mercadolibre.com) and create an App, you will need the ID and the secret Key
-2. Create a MySQL Database and dump the latest file in _/database_
-3. Open config-samepl.php, enter your App credentials and complete database info
+2. Create a MySQL Database and dump the latest file in `/database`
+3. Open `config-sample.php`, enter your App credentials and complete database info
 
 ---
 
