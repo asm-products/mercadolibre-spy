@@ -1,4 +1,4 @@
-# Mercado SPY
+# Salespy
 
 <a href="https://assembly.com/mercadolibre-spy/bounties?utm_campaign=assemblage&utm_source=mercadolibre-spy&utm_medium=repo_badge"><img src="https://asm-badger.herokuapp.com/mercadolibre-spy/badges/tasks.svg" height="24px" alt="Open Tasks" /></a>
 
