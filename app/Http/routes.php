@@ -15,7 +15,10 @@ Route::get('/', function() {
   return redirect('analysis');
 });
 
-// source
+// items
+Route::get('/analysis/{analysis}/items', 'ItemsController@index');
+
+// sources
 Route::get('sources/parse', 'SourcesController@parse');
 Route::get('analysis/{id}/sources', 'SourcesController@index');
 Route::get('analysis/{id}/sources/create', 'SourcesController@create');
