@@ -16,7 +16,8 @@ Route::get('/', function() {
 });
 
 // items
-Route::get('/analysis/{analysis}/items', 'ItemsController@index');
+Route::get('analysis/{analysis}/items', 'ItemsController@index');
+Route::post('items', 'ItemsController@follow');
 
 // sources
 Route::get('sources/parse', 'SourcesController@parse');

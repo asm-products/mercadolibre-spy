@@ -37,6 +37,8 @@
           <a href="{{ url('analysis/'.$analysis->id.'/sources') }}" class="btn btn-default btn-xs">{{ $analysis->sources()->count() }} sources</a>
           @if ($analysis->items()->where('following','')->count() > 0)
           <a href="{{ url('analysis/'.$analysis->id.'/items') }}" class="btn btn-default btn-xs"><span class="badge">{{ $analysis->items()->where('following','')->count() }}</span> new items</a>
+          @else
+          <a href="{{ url('analysis/'.$analysis->id.'/items') }}" class="btn btn-default btn-xs">items</a>
           @endif
         </td>
       </tr>
