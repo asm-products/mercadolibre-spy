@@ -119,8 +119,8 @@ class SourcesController extends Controller {
 
 		}
 
-		return true;
-		
+		return $sources;
+
 	}
 
 	private function parseMeli($source, $offset=0)

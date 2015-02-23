@@ -27,4 +27,9 @@ class Analysis extends Model {
 		return $this->hasMany('App\Item');
 	}
 
+	public function following()
+	{
+		return $this->hasMany('App\Item')->where('following', 'yes');
+	}
+
 }

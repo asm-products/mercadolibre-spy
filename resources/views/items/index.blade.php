@@ -25,7 +25,11 @@
     <tbody>
     @foreach ($items as $item)
 
+      @if ( ! $item->following)
+      <tr class="success">
+      @else
       <tr>
+      @endif
         <td><strong><a href="{{ $item->url }}" target="_blank">{{ $item->title }}</a></strong></td>
         <td>{{ number_format($item->price, 2, '.', ',') }} {{ $item->currency }}</td>
         <td>

@@ -20,7 +20,12 @@
       <tr>
         <td>
           <strong><a href="{{ url('analysis', [$analysis->id]) }}">{!! $analysis->name !!}</a></strong>
-          <br /><small>{!! $analysis->site !!} &mdash; Created {{ $analysis->created_at->diffForHumans() }}</small>
+          <br />
+          <small>
+            {!! $analysis->site !!}
+            &mdash; Created {{ $analysis->created_at->diffForHumans() }}
+            &mdash; Following {{ $analysis->following()->count() }} items
+          </small>
         </td>
 
         <td>
